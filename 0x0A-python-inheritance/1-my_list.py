@@ -1,14 +1,10 @@
 #!/usr/bin/python3
-""" Create a class inheritance of list class """
+
+"""This module contains code that builds ona default Python Class"""
 
 
 class MyList(list):
-    """
-        MyList class, a sub class of list
-        Arg:
-            list: the super class list
-    """
-
+    """A custom subclass of list with added functionalities"""
     def print_sorted(self):
-        """ print sorted self in ascending order"""
+        """Prints the list in a sorted order, without changing it"""
         print(sorted(self))

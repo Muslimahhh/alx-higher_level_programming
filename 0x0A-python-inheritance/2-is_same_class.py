@@ -1,14 +1,8 @@
 #!/usr/bin/python3
-""" a function that checks class """
+
+"""This module contains a function that checks if an object is a subclass"""
 
 
 def is_same_class(obj, a_class):
-    """
-        checks is an object is of same class as a_class
-        Args:
-            obj: object,
-            a_class: class
-    """
-    if type(obj) == a_class:
-        return True
-    return False
+    """Checks if a specified object is a subcclass of a specified class"""
+    return (type(obj) is a_class)

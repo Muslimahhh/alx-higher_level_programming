@@ -1,1 +1,1 @@
-Tasks about inheritance in python
+Python - Inheritance

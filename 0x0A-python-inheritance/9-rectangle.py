@@ -17,3 +17,11 @@ class Rectangle(BaseGeometry):
 
         self.__width = width
         self.__height = height
+
+    def area(self):
+        """An overridden function that calculates area"""
+        return (self.__width * self.__height)
+
+    def __str__(self):
+        """A magic method that runs when str or print is called"""
+        return (f"[{type(self).__name__}] {self.__width}/{self.__height}")

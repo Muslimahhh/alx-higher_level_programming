@@ -1,10 +1,8 @@
 #!/usr/bin/python3
-""" Look up attributes of an object """
+
+"""This module contains a function that gets all the attributes of an object"""
 
 
 def lookup(obj):
-    """ Prints tihe available attributes of an object
-        Args:
-            obj - object parameter
-    """
+    """Returns a list of available attributes of an object"""
     return (dir(obj))
